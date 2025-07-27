@@ -1,0 +1,92 @@
+.container {
+    background-color:antiquewhite;
+    width: 550px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 24px 38px 3px rgba(0,0,0,0.14) , 0px 9px 46px 8px rgba(0,0,0,0.12) , 0px 11px 15px -7px rgba(0,0,0,0.2) ;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.star {
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+    font-size: 35px;
+}
+
+.container-one {
+    background-color: lightgray;
+    margin: auto;
+    width: 490px;
+    height: 700px;
+    box-shadow: 0px 24px 38px 3px rgba(0,0,0,0.14) , 0px 9px 46px 8px rgba(0,0,0,0.12) , 0px 11px 15px -7px rgba(0,0,0,0.2) ;
+    position: relative;
+    bottom: 7px;
+    border-radius: 15px;
+}
+
+img {
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: 140px;
+}
+
+h2 {
+    position: relative;
+    left: 25px;
+}
+
+p {
+    position: relative;
+    left: 25px;
+    font-size: 18px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 12px 20px;
+    position: relative;
+    left: 25px;
+    font-size: 16px;  
+}
+
+.one-o {
+    padding: 12px 60px;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    background-color: lightblue;
+}
+
+.one {
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+
+.first {
+    background-color: black;
+    border-radius: 200px;
+}
+
+.two {
+    background-color: gray;
+    border-radius: 200px;
+}
+
+.three {
+    background-color: lightskyblue;
+    border-radius: 200px;
+}
+
+.four {
+    background-color: lightgoldenrodyellow;
+    border-radius: 200px;
+}

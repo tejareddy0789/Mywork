@@ -1,0 +1,43 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    width: 800px;
+    max-width: 800px;
+}
+
+.logo{
+    width: 400px;
+    margin-bottom: 25px;
+}
+
+.search-box input{
+    margin: 10px;
+    width: 300px;
+    border-radius: 23px;
+    padding: 14px;    
+}
+
+.buttons{
+    margin: 10px;
+}
+
+.buttons button{
+    border: 1px solid #f8f9fa;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    border: 1px solid;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}

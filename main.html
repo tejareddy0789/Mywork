@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Learning</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: black;
+      padding: 40px 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    body {
+      cursor: url('https://img.icons8.com/?size=100&id=5L7w8bKTrpCh&format=png&color=000000'), auto;
+    }
+
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      flex: 1;
+    }
+
+    h1 {
+      color: red;
+      margin: 20px;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    span {
+      color: DarkBlue;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px 0;
+    }
+
+    a {
+      position: relative;
+      padding: 14px 24px;
+      font-size: 16px;
+      font-weight: 600;
+      color: aqua;
+      background: none;
+      border: 2px solid #646cff;
+      border-radius: 8px;
+      cursor: pointer;
+      overflow: hidden;
+      text-decoration: none;
+      text-align: center;
+      min-width: 150px;
+      transition: 0.3s;
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      background: linear-gradient(#646cff 0 0) no-repeat calc(200% - var(--p, 0%)) 100% / 200% var(--p, 0.2em);
+      transition: 0.3s var(--t, 0s), background-position 0.3s calc(0.3s - var(--t, 0s));
+    }
+
+    a:hover {
+      --p: 100%;
+      --t: 0.3s;
+      color: #fff;
+    }
+
+    footer {
+      color: aqua;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 18px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 24px;
+        margin: 10px;
+      }
+
+      a {
+        font-size: 14px;
+        padding: 12px 16px;
+        min-width: 120px;
+      }
+
+      body {
+        padding: 20px 10px;
+      }
+    }
+
+    h1 {
+      font-size: 35px;
+      font-weight: bold;
+      background: linear-gradient(
+      120deg,
+    #a1c4fd,
+    #c2e9fb,
+    #fbc2eb,
+    #a6c1ee,
+    #a1c4fd
+    );
+
+      background-size: 300% 300%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: auroraMove 6s ease-in-out infinite;
+    }
+
+    @keyframes auroraMove {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    } 
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My <span>HTML</span> and <span>CSS</span> Practice</h1>
+    <div class="links">
+      <a href="google.html" target="_blank">Google Clone</a>
+      <a href="Netflix.html" target="_blank">Netflix Clone</a>
+      <a href="gridservice.html" target="_blank">Grid Services</a>
+      <a href="bloglayout.html" target="_blank">Blog Layout</a>
+      <a href="featurebox.html" target="_blank">Feature Box</a>
+      <a href="productgrid.html" target="_blank">Product Grid</a>
+      <a href="./portfolio/index.html" target="_blank">My Portfolio</a>
+      <a href="./registrationform/index.html" target="_blank">Registration Form</a>
+      <a href="./restaurant/index.html" target="_blank">Restaurant</a>
+      <a href="./task/index.html" target="_blank">Task</a>
+      <a href="./figma task/index.html" target="_blank">Figma Task</a>
+      <a href="./shoe tast/index.html" target="_blank">Shoe Task</a>
+      <a href="./product/index.html" target="_blank">Product</a>
+    </div>
+  </div>
+  <footer>© My Learning 2025</footer>
+</body>
+</html>

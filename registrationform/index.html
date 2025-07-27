@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Registration form </title>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form novalidate>
+
+            <label for="name">Full Name:</label>
+            <input type="text" placeholder="Enter your name" required/>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+
+            <label for="password">Enter Password:</label>
+            <input type="password" placeholder="Enter your password" required/><br>
+
+            <div class="radio">
+                <label>Gender</label>
+                <label><input type="radio" required /> Male</label>
+                <label><input type="radio" /> Female</label>
+            </div><br>
+
+            <label for="email">Enter Email address:</label>
+            <input type="email" placeholder="Email address" required/>
+
+            <label for="country">Select Country</label>
+                <select>
+                    <option>Select your country</option>
+                    <option>India</option>
+                    <option>United States</option>
+                    <option>Canada</option>
+                    <option>Australia</option>
+                    <option>United Kingdom</option>
+                </section>
+
+            <div class="button">
+                <input type="submit">
+                <p>Already have an account <a href="login.html">login</a></p>
+             </div>
+
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,125 @@
+
+/* container section */
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 24px 38px 3px rgba(0,0,0,0.14) , 0px 9px 46px 8px rgba(0,0,0,0.12) , 0px 11px 15px -7px rgba(0,0,0,0.2) ;
+}
+
+header {
+    background-color: MintCream;
+    color: navy;
+    height: 250px;
+    width: 100%;
+}
+
+.main-img {
+    float: right;
+    position: relative;
+    right: 50px;
+    margin-top: 23px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-weight: bold;
+    font-style: 45px;
+    position: relative;
+    left: 70px;
+    top: 30px;
+}
+
+.main-para {
+    position: relative;
+    left: 70px;
+    top: 30px
+}
+
+button {
+    border: 1px;
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 10px 15px;
+    position: relative;
+    left: 70px;
+    top: 30px;
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: transparent;
+    color: Tomato;
+}
+
+/* Feature Section */
+h2 {
+    text-align: center;
+}
+
+.feature-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center; 
+    text-align: center;
+}
+
+.feature-box {
+    border: 2px;
+    background-color: aliceblue;
+    margin: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* our work */
+h2 {
+    text-align: center;
+}
+
+.work-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center; 
+    text-align: center;
+}
+
+.project-box {
+    border: 2px;
+    background-color: aliceblue;
+    margin: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* footer Section */
+
+section {
+    background-color: lightblue;
+}
+.about {
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+
+.left {
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.about-para {
+    font-size: 18px;
+}
+
+.follow {
+    position: relative;
+    left: 630px;
+    bottom: 60px; 
+}
+
+h4 {
+    font-size: 30px;
+}

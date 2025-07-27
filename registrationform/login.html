@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            margin: 10px;
+            background: linear-gradient(white,orange,white);
+        }
+
+        .container {
+            position: relative;
+            left: 450px;
+            width: 450px;
+            margin: 50px;
+            background-color: black;
+            color: aqua;
+            padding: 10px;
+            border: 1.5px solid;
+            border-radius: 12px;
+            background: black;
+            backdrop-filter: blur(50px);
+        }
+
+        .container:hover{
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        label {
+            display: block;
+            margin: 10px;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            border-radius: 12px;
+            border: 2px solid transparent;
+            box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.088);
+            transition: border .3 each-in-out;
+            background: transparent;
+            color: aqua;
+        }
+
+        input[type="text"]:hover {
+            border-color: deeppink;
+        }
+
+        input[type="password"] {
+            width: 300px;
+            padding: 10px;
+            border-radius: 12px;
+            border: 2px solid transparent;
+            box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.088);
+            transition: border .3 each-in-out;
+            background: transparent;
+            color: aqua;
+        }
+
+        input[type="password"]:hover {
+            border-color: deeppink;
+        }
+
+        a {
+            color: aqua;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            font-size: 17px;
+        }
+
+        .remember-me {
+            display: flex;
+            justify-content: center;
+            gap: 5px; 
+            font-size: 17px;
+        }
+
+        .login {
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            padding: 5px;
+            margin: 10px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: black;
+            color: aqua;
+            border: 1px solid lime;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome Back</h2>
+        <p><strong>Login</strong></p>
+
+        <form>
+
+            <label for="name">User Name / Email address:</label>
+            <input type="text" placeholder="Enter here" required/>
+
+            <label for="password">Enter Password:</label>
+            <input type="password" placeholder="Enter password" required/><br><br>
+
+            <a href="">Forget Password</a>
+
+            <div class="remember-me">
+                <input type="checkbox">
+                <label for="check">Remember me</label>
+              </div>              
+
+            <div class="login">
+                <button>login</button>
+            </div> 
+
+            <div class="account">
+                <p>Don't have account? <a href="../registrationform/index.html">Register here</a></p>
+            </div>
+        </form>
+
+
+    </div>
+</body>
+</html>
